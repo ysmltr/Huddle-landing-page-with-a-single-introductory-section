@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background: url(/images/bg-desktop.svg);
+    background-color: var(--Violet);
+    background-repeat: no-repeat;
+  }
+  
+
+
+  .img-logo{
+    height: 10px;
+  }
+
+  .mockup{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+
+  .container{
+    display: flex;
+  }
+
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 90px;
+    margin-top: 120px;
+  }
+
+
+  .title {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    font-family: Poppins, sans-serif;
+  }
+
+  #subtitle{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 18px;
+    width: 460px;
+  }
+
+
+  .register-btn{
+    height: 50px;
+  width: 180px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border:1px solid; 
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  color: var(--Violet);
+  
+  cursor: pointer;
+  }
+button:hover{
+    background-color: var(--SoftMagenta);
+}
+
+  .media {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+  }
+  
+  i {
+    margin-right: 20px;
+    color: white;
+  }
+
+  i:hover{
+    color:var(--SoftMagenta);
+    border: 1px  var(--SoftMagenta);
+    
+}
+
+
